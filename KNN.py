@@ -15,6 +15,7 @@ knn.fit(data_train, kelas_train)
 st.set_page_config(page_title="KNN Iris Classifier", page_icon="🌸")
 
 st.title("KNN Iris Classifier")
+st.markdown("by: Rahmah Sary Fadiyah")
 st.markdown("Masukkan nilai fitur bunga iris untuk memprediksi kelasnya menggunakan algoritma KNN.")
 
 # Form input
